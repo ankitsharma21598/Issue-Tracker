@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const url = process.env.DB_STRING;
+
 // mongoose.connect('url') 
-mongoose.connect(url);
+mongoose.connect(process.env.DB_STRING);
 const db=mongoose.connection;
 
 //If any Error then Getting this Line
