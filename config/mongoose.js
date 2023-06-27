@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // mongoose.connect('url') 
-mongoose.connect(process.env.DB_STRING);
+mongoose.connect(process.env.MONGO_URL);
 const db=mongoose.connection;
 
 //If any Error then Getting this Line
