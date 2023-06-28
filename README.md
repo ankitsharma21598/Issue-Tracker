@@ -1,4 +1,4 @@
-### Issue Tracker
+# Issue Tracker
 
 ### Github Link:https://github.com/ankitsharma21598/Issue-Tracker.git
 
